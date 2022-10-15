@@ -1,0 +1,57 @@
+script:
+  path: ./static/scripts
+settings:
+  application:
+    host: 0.0.0.0
+    mode: dev
+    name: vAdmin
+    port: "8000"
+    readtimeout: 1
+    writertimeout: 2
+  domain:
+    gethost: 1
+    url: localhost:9527
+  drill:
+    dbtype: drill
+    host: 192.168.0.18
+    port: 30700
+  email:
+    alias: vAdmin
+    host: smtp.163.com
+    pass: xxx
+    port: 465
+    user: pygo_k8s@163.com
+  gorm:
+    logmode: 0
+    maxidleconn: 0
+    maxopenconn: 20000
+  jwt:
+    secret: vAdminx
+    timeout: 7200
+  log:
+    compress: 1
+    consolestdout: 1
+    dir: temp/logs
+    filestdout: 0
+    level: debug
+    localtime: 1
+    maxage: 30
+    maxbackups: 300
+    maxsize: 10240
+    path: ./logs/vAdmin.log
+  mysql:
+    dbtype: mysql
+    host: xx.xx.xx.xx
+    maxidleconns: 0
+    maxopenconns: 100
+    name: cicdadmin
+    password: ********8
+    port: 3306
+    username: cicd_user
+  public:
+    islocation: 0
+  redis:
+    url: redis://xx.xx.xx.xx:6379
+  ssl:
+    key: keystring
+    pem: temp/pem.pem

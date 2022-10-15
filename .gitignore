@@ -1,0 +1,11 @@
+.idea
+static/uploadfile
+*.exe
+main
+temp/
+!temp
+vendor
+config/settings.dev.yml
+pashash
+devnotes.txt
+*.log
